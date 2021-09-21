@@ -30,6 +30,8 @@ public class Level1 extends World
         Door door = new Door();
         addObject(door,587,48);
         Player player = new Player();
-        addObject(player,25,471);
+        addObject(player,20,524);
+        addObject(new Floor(), 28, 560);
+        addObject(new BrickWall(), 600, 110);
     }
 }
