@@ -34,9 +34,9 @@ public class Level1 extends World
         addObject(door,1177,43);
         Player player = new Player(3, 5.6f, GRAVITY, 3, 3, Level2.class, MUSIC);
         addObject(player,20,524);
-        addObject(new Floor(), 600, 710);
+        addObject(new Floor(), 600, 800);
         addObject(new BrickWall(), 985, 104);
-        player.setLocation(20,670);
+        player.setLocation(20,760);
         SmBrickWall smBrickWall = new SmBrickWall();
         addObject(smBrickWall,314,386);
         removeObject(smBrickWall);
@@ -54,6 +54,8 @@ public class Level1 extends World
         addObject(bomb,412,365);
         SmBrickWall smBrickWall5 = new SmBrickWall();
         addObject(smBrickWall5,288,268);
+        SmBrickWall smBrickWall6 = new SmBrickWall();
+        addObject(smBrickWall6,621,674);
     }
     
     public void act()
